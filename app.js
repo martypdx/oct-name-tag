@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 // DOM - document object model
 // built into your browser -- its a JS representation of your HTML
 
