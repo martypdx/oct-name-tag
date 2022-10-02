@@ -20,3 +20,16 @@ updateBtn.addEventListener('click', () => {
     // set the display to the value from the input
     nameDisplay.textContent = nameInput.value;
 });
+
+const colorDropdown = document.getElementById('color-dropdown');
+colorDropdown.addEventListener('change', () => {
+    console.log('change is happening!');
+    console.log(colorDropdown.value);
+
+    const nameTagSection = document.getElementById('name-tag-section');
+    nameTagSection.classList.remove('red');
+    nameTagSection.classList.remove('blue');
+    nameTagSection.classList.remove('green');
+
+    nameTagSection.classList.add(colorDropdown.value);
+});

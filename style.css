@@ -41,9 +41,19 @@ button {
     margin-top: 20px;
     width: 400px;
     height: 255px;
-    background: rgb(244, 86, 86);
     color: white;
     text-align: center;
+}
+.name-tag.red {
+    background: rgb(244, 86, 86);
+}
+
+.name-tag.blue {
+    background: rgb(86, 131, 244);
+}
+
+.name-tag.green {
+    background: rgb(84, 133, 91);
 }
 
 h2 {
